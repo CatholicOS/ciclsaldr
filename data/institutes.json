@@ -1,0 +1,33 @@
+{
+  "$comment": "ILLUSTRATIVE seed demonstrating the CICLSALDR entry shape. Not a systematic compilation: the full registry is to be compiled from the Annuario Pontificio's indices. All IDs are drafts pending committee review.",
+  "id_scheme": "icl:<slug> | icl:familia-<slug>",
+  "entry_count": 26,
+  "entries": [
+    {"id": "icl:familia-benedictina", "common_name": "Benedictine family", "type": "family"},
+    {"id": "icl:familia-franciscana", "common_name": "Franciscan family", "type": "family"},
+    {"id": "icl:familia-carmelitana", "common_name": "Carmelite family", "type": "family"},
+    {"id": "icl:familia-vincentiana", "common_name": "Vincentian family", "type": "family"},
+    {"id": "icl:familia-salesiana", "common_name": "Salesian family", "type": "family"},
+    {"id": "icl:osb", "postnominal": "O.S.B.", "latin_name": "Ordo Sancti Benedicti", "common_name": "Benedictines", "type": "religious_institute", "family": "icl:familia-benedictina"},
+    {"id": "icl:ocist", "postnominal": "O.Cist.", "latin_name": "Ordo Cisterciensis", "common_name": "Cistercians", "type": "religious_institute", "family": "icl:familia-benedictina"},
+    {"id": "icl:ocso", "postnominal": "O.C.S.O.", "latin_name": "Ordo Cisterciensium Strictioris Observantiae", "common_name": "Trappists", "type": "religious_institute", "family": "icl:familia-benedictina"},
+    {"id": "icl:ocart", "postnominal": "O.Cart.", "latin_name": "Ordo Cartusiensis", "common_name": "Carthusians", "type": "religious_institute"},
+    {"id": "icl:op", "postnominal": "O.P.", "latin_name": "Ordo Praedicatorum", "common_name": "Dominicans", "type": "religious_institute"},
+    {"id": "icl:ofm", "postnominal": "O.F.M.", "latin_name": "Ordo Fratrum Minorum", "common_name": "Franciscans (Friars Minor)", "type": "religious_institute", "family": "icl:familia-franciscana"},
+    {"id": "icl:ofmcap", "postnominal": "O.F.M.Cap.", "latin_name": "Ordo Fratrum Minorum Capuccinorum", "common_name": "Capuchins", "type": "religious_institute", "family": "icl:familia-franciscana"},
+    {"id": "icl:ofmconv", "postnominal": "O.F.M.Conv.", "latin_name": "Ordo Fratrum Minorum Conventualium", "common_name": "Conventual Franciscans", "type": "religious_institute", "family": "icl:familia-franciscana"},
+    {"id": "icl:osc", "postnominal": "O.S.C.", "latin_name": "Ordo Sanctae Clarae", "common_name": "Poor Clares", "type": "religious_institute", "family": "icl:familia-franciscana"},
+    {"id": "icl:osa", "postnominal": "O.S.A.", "latin_name": "Ordo Sancti Augustini", "common_name": "Augustinians", "type": "religious_institute"},
+    {"id": "icl:ocarm", "postnominal": "O.Carm.", "latin_name": "Ordo Fratrum Beatae Mariae Virginis de Monte Carmelo", "common_name": "Carmelites", "type": "religious_institute", "family": "icl:familia-carmelitana"},
+    {"id": "icl:ocd", "postnominal": "O.C.D.", "latin_name": "Ordo Fratrum Carmelitarum Discalceatorum", "common_name": "Discalced Carmelites", "type": "religious_institute", "family": "icl:familia-carmelitana"},
+    {"id": "icl:sj", "postnominal": "S.J.", "latin_name": "Societas Iesu", "common_name": "Jesuits", "type": "religious_institute"},
+    {"id": "icl:cssr", "postnominal": "C.Ss.R.", "latin_name": "Congregatio Sanctissimi Redemptoris", "common_name": "Redemptorists", "type": "religious_institute"},
+    {"id": "icl:cp", "postnominal": "C.P.", "latin_name": "Congregatio Passionis Iesu Christi", "common_name": "Passionists", "type": "religious_institute"},
+    {"id": "icl:sdb", "postnominal": "S.D.B.", "latin_name": "Societas Sancti Francisci Salesii", "common_name": "Salesians of Don Bosco", "type": "religious_institute", "family": "icl:familia-salesiana"},
+    {"id": "icl:fma", "postnominal": "F.M.A.", "latin_name": "Institutum Filiarum Mariae Auxiliatricis", "common_name": "Salesian Sisters (Daughters of Mary Help of Christians)", "type": "religious_institute", "family": "icl:familia-salesiana"},
+    {"id": "icl:cm", "postnominal": "C.M.", "latin_name": "Congregatio Missionis", "common_name": "Vincentians (Lazarists)", "type": "society_of_apostolic_life", "family": "icl:familia-vincentiana"},
+    {"id": "icl:fdlc", "postnominal": "F.d.l.C.", "latin_name": "Societas Filiarum Caritatis Sancti Vincentii de Paulo", "common_name": "Daughters of Charity", "type": "society_of_apostolic_life", "family": "icl:familia-vincentiana"},
+    {"id": "icl:mep", "postnominal": "M.E.P.", "latin_name": "Societas Parisiensis Missionum ad Exteras Gentes", "common_name": "Paris Foreign Missions Society", "type": "society_of_apostolic_life"},
+    {"id": "icl:co", "postnominal": "C.O.", "latin_name": "Confoederatio Oratorii Sancti Philippi Nerii", "common_name": "Oratorians", "type": "society_of_apostolic_life"}
+  ]
+}
