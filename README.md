@@ -31,3 +31,7 @@ Where an institute has a conventional postnominal abbreviation (OSB, OP, SJ, CM�
 
 - [`data/institutes.json`](data/institutes.json) — an **illustrative** seed of well-known institutes, societies and families, demonstrating the entry shape; the systematic compilation (from the Annuario Pontificio's lists) is future work.
 - [`docs/schema-proposal.md`](docs/schema-proposal.md) — the proposed schema and the open questions for the committee.
+
+## License
+
+The data and documentation in this repository are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/) (CC BY-NC-ND 4.0). See [`LICENSE`](LICENSE) for the full legal code.
